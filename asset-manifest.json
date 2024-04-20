@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-itvdn-weather-app/static/css/main.508310de.css",
-    "main.js": "/react-itvdn-weather-app/static/js/main.12aa0433.js",
+    "main.js": "/react-itvdn-weather-app/static/js/main.12f24bb9.js",
     "static/media/bg-trees2.png": "/react-itvdn-weather-app/static/media/bg-trees2.91854438ffb0a94e03ff.png",
     "index.html": "/react-itvdn-weather-app/index.html",
     "main.508310de.css.map": "/react-itvdn-weather-app/static/css/main.508310de.css.map",
-    "main.12aa0433.js.map": "/react-itvdn-weather-app/static/js/main.12aa0433.js.map"
+    "main.12f24bb9.js.map": "/react-itvdn-weather-app/static/js/main.12f24bb9.js.map"
   },
   "entrypoints": [
     "static/css/main.508310de.css",
-    "static/js/main.12aa0433.js"
+    "static/js/main.12f24bb9.js"
   ]
 }
