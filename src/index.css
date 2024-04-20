@@ -5,7 +5,7 @@
 
 .app::before {
   content: '';
-  background: url('./images/nature.jpg') no-repeat center center/cover;
+  background: url('./images/bg-trees2.png') no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -25,14 +25,12 @@
   border-radius: 15px;
   border: 1px solid grey;
   background: rgba(255,255,255,0.5);
-  color: #8f8f8f;
+  color: #4f4646;
   outline: none;
 }
 
 .container {
   margin-top: 10vh;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .city p {
