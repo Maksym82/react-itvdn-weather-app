@@ -52,7 +52,7 @@ function App() {
             <div className="feels">
               {data.main ? (
                 <p className="bold">
-                  {data.main.feels_like}
+                  {data.main.feels_like.toFixed()}
                   °C
                 </p>
               ) : null}
