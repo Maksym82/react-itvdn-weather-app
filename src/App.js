@@ -1,4 +1,5 @@
 import { useState } from "react";
+import axios from "axios";
 
 function App() {
 
@@ -10,12 +11,10 @@ function App() {
 
     const searchWeather = (event) => {
         if (event.key === 'Enter') {
-            fetch(url)
-                .then((response) => response.json())
-                .then((response) => {
-                    setData(response);
-                })
-                setTown('');
+            axios.get(url).then((response) => {
+                setData(response.data);
+            })
+            setTown('');
         }
     }
 
